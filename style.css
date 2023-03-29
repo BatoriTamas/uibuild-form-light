@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #467745;
+  }
+
+body {
+  background-color: #f7e4d4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+h1 {
+  font-weight: 400;
+  font-size: 46px;
+  font-family: EB Garamond, sans-serif;
+  padding: 100px 0 20px 0;
+  }
+
+  @media (max-width: 520px) {
+    h1 {
+      font-size: 36px;
+      /* put text to the left here */
+    }
+  }
+
+.inputfield {
+  padding: 0 0 20px 0;
+
+}
+
+input {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  width: 480px;
+  height: 64px;
+  color: #467745;
+  border: none;
+  padding: 0 0 0 20px
+  }
+
+.textareafield {
+  padding: 0 0 20px 0;
+}
+
+textarea {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  width: 480px;
+  height: 120px;
+  padding: 20px 0 0 20px;
+  border-style: none;
+  }
+
+.checkboxtext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 480px;
+  }
+
+  input.checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+button {
+  font-family: EB Garamond;
+  font-size: 21px;
+  font-weight: 400;
+  width: 280px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #467745;
+  color: #f7e4d4;
+  letter-spacing: 0.2em;
+ 
+}
+
